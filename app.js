@@ -31,7 +31,6 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
-// test
 // error handlers
 // development error handler
 // will print stacktrace
